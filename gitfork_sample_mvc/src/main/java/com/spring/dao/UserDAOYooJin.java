@@ -5,16 +5,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+
+
 @Transactional
 @Repository
-public class BoardDAOPoong implements BoardDAO {
-	
+public class UserDAOYooJin implements UserDAO {
 	@Autowired
 	private SqlSession sqlSession;
-	
+
 	@Override
-	public int getCount() {
-		return sqlSession.selectOne("generalSQL.poongCount");
-		
+	public int getYoojinCount() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
+	
+	
+	
 }

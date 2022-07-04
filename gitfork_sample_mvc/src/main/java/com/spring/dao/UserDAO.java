@@ -1,9 +1,8 @@
 package com.spring.dao;
 
 
-public interface BoardDAO {
+public interface UserDAO {
 
-	public int getCount();
-		
 	public int getYoojinCount();
+
 }

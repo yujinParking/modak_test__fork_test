@@ -6,4 +6,9 @@
 	<select id="poongCount" resultType="java.lang.Integer">
 		select count(*) from board_qna
 	</select>
+	
+	<select id="yoojinCount" resultType="java.lang.Integer">
+		select count(*) from user2
+	</select>
+	
 </mapper>
